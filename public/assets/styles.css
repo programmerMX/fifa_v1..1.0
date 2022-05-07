@@ -118,13 +118,47 @@ a{
     padding: 30px 0;
 }
 
+#golden-ball{
+    color: gold;
+}
+
 .statistics-container{
     display: flex;
     justify-content: space-around;
 }
 
 .statistics-item{
-    border: 2px solid black;
+    border: 3px solid #0000cd;
+    border-radius: 10px;
+    box-shadow: 0 10px 10px blue;
     padding: 15px 15px;
     display: grid;
+}
+
+.statistics-item{
+    flex-grow: 1;
+    margin: 0 20px;
+}
+
+.statistics-item--table-container{
+    display: inline-block;
+}
+
+.statistics-item--table tr{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 5px;
+    margin: 5px 0;
+    width: 100%;
+}
+
+.statistics-item--table th{
+    font-size: 2rem;
+    color: #02adff;
+}
+
+.statistics-item--table td{
+    font-size: 1.6rem;
+    width: 50%;
+    margin: 0 10px;
 }
