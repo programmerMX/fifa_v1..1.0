@@ -167,3 +167,72 @@ a{
     width: 50%;
     margin: 0 10px;
 }
+
+/* Tranfers Styles */
+
+.main--transfers-section{
+    padding: 40px 0;
+}
+
+.main--transfers-title{
+    font-size: 2.5rem;
+    color: white;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.main--transfers-container{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.main--transfer-title{
+    background-color: blue;
+    padding: 5px 5px;
+}
+
+.main--official-transfers, .main--rumour-transfers{
+    margin: 0 40px;
+    width: 300px;
+    height: 300px;
+}
+
+.main--transfer-container{
+    border: 1px solid blue;
+    display: grid;
+    grid-template-areas: 'players       teams'
+}
+
+#contentTitlePlayer{
+    grid-area: contentTitlePlayer;
+}
+
+#contentTitleTeam{
+    grid-area: contentTitleTeam;
+}
+
+.main--tranfer-players{
+    grid-area: players;
+}
+
+.main--tranfer-teams{
+    grid-area: teams;
+}
+
+.situation-title{
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: white;
+}
+
+.main--tranfer-content{
+    padding: 10px 10px;
+}
+
+.main--transfer-player, .main--transfer-team{
+    color: #0000cd;
+    font-size: 1.4rem;
+    font-weight: 500;
+    padding: 10px 0;
+}

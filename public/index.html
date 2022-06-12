@@ -16,15 +16,15 @@
             <nav class="nav">
                 <ul>
                     <a href="#"><li>Inicio</li></a>
-                    <a href="#"><li>Partidos</li></a>
+                    <a href="#Games"><li>Partidos</li></a>
                     <a href="#Estadisticas" id="statistics-link"><li>Estadisticas</li></a>
-                    <a href="#"><li>Transferencias</li></a>
+                    <a href="#Transfer"><li>Transferencias</li></a>
                 </ul>
             </nav>
         </header>
 
         <main class="main">
-            <div class="start-header main-header">
+            <div class="start-header main-header" id="Games">
                 <h1>Ultimas Noticias</h1>
             </div>
 
@@ -46,9 +46,9 @@
             </div>
 
             <div class="main-games">
-                <header class="games-header main-header">
+                <div class="games-header main-header">
                     <h1>Proximos Partidos</h1>
-                </header>
+                </div>
 
                 <div class="games-container">
                     <div class="game">
@@ -213,6 +213,60 @@
 
                     <!--statistics item end-->
 
+                </div>
+            </section>
+
+            <section class="main--transfers-section" id="Transfer">
+                <h2 class="main--transfers-title">Transfers</h2>
+                <div class="main--transfers-container">
+                     <!-- RUOUR TRANSFERS START-->
+                     <div class="main--rumour-transfers">
+                        <h2 class="main--transfer-title">Rumour</h2>
+
+
+                        <div class="main--transfer-container">
+
+                            <div class="main--tranfer-players main--tranfer-content">
+                                <h3 id="contentTitlePlayer" class="situation-title">Player</h3>
+                                <p id="player1" class="main--transfer-player">Son</p>
+                                <p id="player2" class="main--transfer-player">Koke</p>
+                                <p id="palyer3" class="main--transfer-player">Sancho</p>
+                            </div>
+                            <div class="main--tranfer-teams main--tranfer-content">
+                                <h3 id="contentTitleTeam" class="situation-title">Team</h3>
+                                <p id="team1" class="main--transfer-team">Liverpool</p>
+                                <p id="team2" class="main--transfer-team">bayern</p>
+                                <p id="team3" class="main--transfer-team">Madrid</p>
+                            </div>
+                        </div>
+                         <!-- OFFICLA TRANSFERS END-->
+
+                    </div>
+                     <!-- RUMOUR TRANSFERS END-->
+
+                    <!-- OFFICIAL TRANSFERS START-->
+                    <div class="main--official-transfers">
+                        <h2 class="main--transfer-title">Official</h2>
+
+
+                        <div class="main--transfer-container">
+
+                            <div class="main--tranfer-players main--tranfer-content">
+                                <h3 id="contentTitlePlayer" class="situation-title">Player</h3>
+                                <p id="player1" class="main--transfer-player">Ronaldo</p>
+                                <p id="player2" class="main--transfer-player">Neymar</p>
+                                <p id="palyer3" class="main--transfer-player">Messi</p>
+                            </div>
+                            <div class="main--tranfer-teams main--tranfer-content">
+                                <h3 id="contentTitleTeam" class="situation-title">Team</h3>
+                                <p id="team1" class="main--transfer-team">Liverpool</p>
+                                <p id="team2" class="main--transfer-team">bayern</p>
+                                <p id="team3" class="main--transfer-team">Barcelona</p>
+                            </div>
+                        </div>
+                         <!-- OFFICLA TRANSFERS END-->
+
+                    </div>
                 </div>
             </section>
         </main>
