@@ -6,6 +6,7 @@
 
 html{
     font-size: 62.5%;
+    scroll-behavior: smooth;
 }
 
 body{
@@ -17,6 +18,10 @@ body{
     background-color: #1f1f4e;
     display: flex;
     justify-content: space-between;
+    position: fixed;
+    top: 0;
+    height: 100px;
+    width: 100%;
 }
 
 .logo img{
